@@ -1,0 +1,20 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="pl217.mosis.activity.SettingsActivity$BluetoothPreferenceFragment"
+        android:icon="@drawable/ic_settings_bluetooth_black_24dp"
+        android:title="@string/pref_header_bluetooth" />
+
+    <header
+        android:fragment="pl217.mosis.activity.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_notifications" />
+
+    <header
+        android:id="@+id/ip_address"
+        android:icon="@drawable/ic_http_black_24dp"
+        android:title="@string/pref_header_ip_address" />
+
+</preference-headers>

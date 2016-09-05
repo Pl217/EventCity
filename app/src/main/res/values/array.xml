@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Sport</item>
+        <item>Festival</item>
+        <item>Music</item>
+        <item>Film</item>
+        <item>Shopping</item>
+        <item>Gallery</item>
+        <item>Theater</item>
+        <item>Fair</item>
+    </string-array>
+</resources>
