@@ -10,11 +10,11 @@ This is retroactively open sourced Android app, **not actively maintained**.
 Application EventCity is intended for learning purposes and mostly comprised of native **Android SDK** code, without famous HTTP client libraries.
 
 ***
-###Description
+### Description
 
-**EventCity** is Android application intended for city events searching, as well as posting new events. It utilises concept of gamification, where app users are ranked based on number (and type) of events visited. 
+**EventCity** is Android application intended for city events searching, as well as posting new events. It utilizes concept of gamification, where app users are ranked based on number (and type) of events visited. 
 
-App's landing activity is login screen and every user _must have_ account in order to use the app. Upon logging in, user is located using Geolocation API, and user's location is actively tracked. 
+App's landing activity is login screen and every user _must have_ an account in order to use the app. Upon logging in, user is located using Geolocation API, and user's location is actively tracked. 
 
 User has the power of searching nearby events by radius or by category. There are 8 categories of events, described below. Visiting events gives users points, depending on category of visited event. Users are ranked accordingly and everyone can see Top10 of the current users.
 
@@ -35,5 +35,5 @@ Following table gives event scorings, based on category:
 | Fair            | 45            |
 
 ***
-###Server side application
+### Server side application
 Server side for this application is on a seperate [repo](https://github.com/Pl217/EventCityServer "Application server").
